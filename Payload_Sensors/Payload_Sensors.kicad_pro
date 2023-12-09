@@ -326,6 +326,26 @@
     [
       "be15da96-a8ba-4b41-94e6-4486ed8c384e",
       ""
+    ],
+    [
+      "a8db2f55-bfc9-40a0-84af-8efd68b340ec",
+      "TC_MCP9601_1"
+    ],
+    [
+      "1101fb1e-48e8-4de2-8e8d-f0ddcd662176",
+      "TC_MCP9601_2"
+    ],
+    [
+      "776afdef-1213-44df-abe5-0d4106dc15c8",
+      "TC_MCP9601_3"
+    ],
+    [
+      "93f75a25-38e5-4ce6-8ad7-31062be1351d",
+      "TC_MCP9601_4"
+    ],
+    [
+      "9de207a3-8a7e-4e65-805b-f7a2d307a73e",
+      "TC_MCP9601_5"
     ]
   ],
   "text_variables": {}
