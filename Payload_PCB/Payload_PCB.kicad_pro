@@ -471,6 +471,18 @@
     [
       "5c4f9a68-5778-4223-b18a-2e31db8d7d40",
       ""
+    ],
+    [
+      "d35d8bfb-c080-4ec9-8d57-2a69a0b715d8",
+      "Solenoid Control 1"
+    ],
+    [
+      "7b4c1a27-0edc-40a8-bad5-7c7578297bdc",
+      "Solenoid Control 2"
+    ],
+    [
+      "83f3690e-358b-48b8-8f73-86eaa2f08e98",
+      "Solenoid Control 3"
     ]
   ],
   "text_variables": {}
