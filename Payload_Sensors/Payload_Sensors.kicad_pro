@@ -346,6 +346,10 @@
     [
       "9de207a3-8a7e-4e65-805b-f7a2d307a73e",
       "TC_MCP9601_5"
+    ],
+    [
+      "303d15aa-29fe-42a5-a6a1-f7f24dc6bce2",
+      "Bosch_BHI160B"
     ]
   ],
   "text_variables": {}
