@@ -485,6 +485,10 @@
       "Solenoid Control 3"
     ],
     [
+      "ae559297-2f69-4b2e-9656-464d0c3b2422",
+      "Solenoid Control 4"
+    ],
+    [
       "d52ba4fa-6dae-452c-85f1-a72652abf275",
       "Sensor Modules"
     ],
@@ -511,6 +515,10 @@
     [
       "303d15aa-29fe-42a5-a6a1-f7f24dc6bce2",
       "Bosch_BHI160B"
+    ],
+    [
+      "a5d6e803-a43d-4b6f-b631-9dac7ff20cfd",
+      "BMS_MCP73834"
     ]
   ],
   "text_variables": {}

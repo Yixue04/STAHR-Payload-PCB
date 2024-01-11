@@ -445,6 +445,9 @@
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "D3") (unit 1)
         )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "D8") (unit 1)
+        )
       )
       (project "solenoid_control"
         (path "/d35e6abe-7670-4b21-9efa-e973c38a6f4f"
@@ -495,6 +498,9 @@
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "Q8") (unit 1)
         )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "Q10") (unit 1)
+        )
       )
       (project "solenoid_control"
         (path "/d35e6abe-7670-4b21-9efa-e973c38a6f4f"
@@ -531,6 +537,9 @@
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "R9") (unit 1)
+        )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "R12") (unit 1)
         )
       )
       (project "solenoid_control"
@@ -582,6 +591,9 @@
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "Q9") (unit 1)
         )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "Q11") (unit 1)
+        )
       )
       (project "solenoid_control"
         (path "/d35e6abe-7670-4b21-9efa-e973c38a6f4f"
@@ -618,6 +630,9 @@
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "D1") (unit 1)
+        )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "D6") (unit 1)
         )
       )
       (project "solenoid_control"
@@ -656,6 +671,9 @@
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "D2") (unit 1)
         )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "D7") (unit 1)
+        )
       )
       (project "solenoid_control"
         (path "/d35e6abe-7670-4b21-9efa-e973c38a6f4f"
@@ -692,6 +710,9 @@
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "R1") (unit 1)
+        )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "R13") (unit 1)
         )
       )
       (project "solenoid_control"
@@ -733,6 +754,9 @@
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "C5") (unit 1)
         )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "C6") (unit 1)
+        )
       )
       (project "solenoid_control"
         (path "/d35e6abe-7670-4b21-9efa-e973c38a6f4f"
@@ -770,6 +794,9 @@
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "R10") (unit 1)
         )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "R11") (unit 1)
+        )
       )
       (project "solenoid_control"
         (path "/d35e6abe-7670-4b21-9efa-e973c38a6f4f"
@@ -777,9 +804,5 @@
         )
       )
     )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
   )
 )
