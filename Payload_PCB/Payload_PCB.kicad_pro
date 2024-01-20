@@ -519,6 +519,10 @@
     [
       "a5d6e803-a43d-4b6f-b631-9dac7ff20cfd",
       "BMS_MCP73834"
+    ],
+    [
+      "722fc623-9945-41d5-bc31-e6d0e92574b1",
+      "BMS_MCP73835"
     ]
   ],
   "text_variables": {}

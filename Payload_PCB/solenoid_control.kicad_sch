@@ -323,7 +323,7 @@
     (uuid e5c562fa-bfa3-457b-a466-c641d5433871)
   )
 
-  (wire (pts (xy 169.545 54.61) (xy 172.72 54.61))
+  (wire (pts (xy 164.465 54.61) (xy 173.99 54.61))
     (stroke (width 0) (type default))
     (uuid 0cc91a3c-7ea8-4bf9-a135-3b2830950513)
   )
@@ -351,10 +351,6 @@
     (stroke (width 0) (type default))
     (uuid 3ed78227-0557-40e8-92c3-34bc24aacf0d)
   )
-  (wire (pts (xy 186.055 54.61) (xy 180.34 54.61))
-    (stroke (width 0) (type default))
-    (uuid 55961440-f11b-43e1-8aaa-2105d396e2bf)
-  )
   (wire (pts (xy 95.25 71.12) (xy 97.79 71.12))
     (stroke (width 0) (type default))
     (uuid 831316b7-4fc2-44be-be35-f467edf147f9)
@@ -371,10 +367,6 @@
     (stroke (width 0) (type default))
     (uuid b7fb7d70-99a3-40f4-a067-b4eac7214b8d)
   )
-  (wire (pts (xy 161.925 54.61) (xy 159.385 54.61))
-    (stroke (width 0) (type default))
-    (uuid cfe4d6c2-d665-4617-a72d-090d45b55263)
-  )
   (wire (pts (xy 136.525 54.61) (xy 141.605 54.61))
     (stroke (width 0) (type default))
     (uuid da21c758-5d05-454c-b1af-9742ec2c0a1c)
@@ -383,7 +375,7 @@
     (stroke (width 0) (type default))
     (uuid e355c9ce-5425-453c-a842-cce3d499d798)
   )
-  (wire (pts (xy 151.765 54.61) (xy 149.225 54.61))
+  (wire (pts (xy 156.845 54.61) (xy 149.225 54.61))
     (stroke (width 0) (type default))
     (uuid e7a125de-cedc-491c-a66e-cc65019747b1)
   )
@@ -408,53 +400,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 67a1bcc8-f944-45be-a517-a287ac4a5a6a)
   )
-  (hierarchical_label "s_load" (shape input) (at 186.055 54.61 0) (fields_autoplaced)
+  (hierarchical_label "s_load" (shape input) (at 173.99 54.61 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a9be5150-5aa8-42e5-980b-c1548508138b)
   )
   (hierarchical_label "s_white" (shape input) (at 76.2 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d0a3e637-2c57-4f28-b48b-446c8625e1f5)
-  )
-
-  (symbol (lib_id "Device:D_Schottky") (at 165.735 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 04c3c53e-5eef-4c36-9942-8b01b1d2b526)
-    (property "Reference" "D3" (at 165.4175 48.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D_Schottky" (at 165.4175 50.8 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.735 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 165.735 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6bcdf36c-36c9-4c7a-851f-ad59a250e89c))
-    (pin "2" (uuid 0440a65d-9ed0-4998-ba44-541c54634b48))
-    (instances
-      (project "Payload_PCB"
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d35d8bfb-c080-4ec9-8d57-2a69a0b715d8"
-          (reference "D3") (unit 1)
-        )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/7b4c1a27-0edc-40a8-bad5-7c7578297bdc"
-          (reference "D3") (unit 1)
-        )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
-          (reference "D3") (unit 1)
-        )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
-          (reference "D8") (unit 1)
-        )
-      )
-      (project "solenoid_control"
-        (path "/d35e6abe-7670-4b21-9efa-e973c38a6f4f"
-          (reference "D3") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "Simulation_SPICE:NMOS") (at 90.17 52.07 90) (mirror x) (unit 1)
@@ -490,10 +442,10 @@
           (reference "Q2") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d35d8bfb-c080-4ec9-8d57-2a69a0b715d8"
-          (reference "Q7") (unit 1)
+          (reference "Q4") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/7b4c1a27-0edc-40a8-bad5-7c7578297bdc"
-          (reference "Q1") (unit 1)
+          (reference "Q6") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "Q8") (unit 1)
@@ -513,7 +465,7 @@
   (symbol (lib_id "Device:R") (at 101.6 71.12 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fab5646-a1d4-4d3e-9e7d-78071d66b1de)
-    (property "Reference" "R3" (at 101.6 66.04 90)
+    (property "Reference" "R6" (at 101.6 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "8Ohm" (at 101.6 67.945 90)
@@ -530,16 +482,16 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d35d8bfb-c080-4ec9-8d57-2a69a0b715d8"
-          (reference "R3") (unit 1)
-        )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/7b4c1a27-0edc-40a8-bad5-7c7578297bdc"
           (reference "R6") (unit 1)
         )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/7b4c1a27-0edc-40a8-bad5-7c7578297bdc"
           (reference "R9") (unit 1)
         )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "R12") (unit 1)
+        )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "R15") (unit 1)
         )
       )
       (project "solenoid_control"
@@ -583,10 +535,10 @@
           (reference "Q2") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d35d8bfb-c080-4ec9-8d57-2a69a0b715d8"
-          (reference "Q2") (unit 1)
+          (reference "Q5") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/7b4c1a27-0edc-40a8-bad5-7c7578297bdc"
-          (reference "Q3") (unit 1)
+          (reference "Q7") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
           (reference "Q9") (unit 1)
@@ -606,7 +558,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 145.415 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45c935e9-e3ab-4b0f-8245-d3b7b8c978e5)
-    (property "Reference" "D1" (at 145.0975 48.26 0)
+    (property "Reference" "D6" (at 145.0975 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Schottky" (at 145.0975 50.8 0)
@@ -623,17 +575,17 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d35d8bfb-c080-4ec9-8d57-2a69a0b715d8"
-          (reference "D1") (unit 1)
-        )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/7b4c1a27-0edc-40a8-bad5-7c7578297bdc"
-          (reference "D1") (unit 1)
-        )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
-          (reference "D1") (unit 1)
-        )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
           (reference "D6") (unit 1)
         )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/7b4c1a27-0edc-40a8-bad5-7c7578297bdc"
+          (reference "D7") (unit 1)
+        )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
+          (reference "D8") (unit 1)
+        )
+        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
+          (reference "D9") (unit 1)
+        )
       )
       (project "solenoid_control"
         (path "/d35e6abe-7670-4b21-9efa-e973c38a6f4f"
@@ -643,59 +595,19 @@
     )
   )
 
-  (symbol (lib_id "Device:D_Schottky") (at 155.575 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5a4726a7-52bf-4ecf-9cb6-1926bbcc77dd)
-    (property "Reference" "D2" (at 155.2575 48.26 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "D_Schottky" (at 155.2575 50.8 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 155.575 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 155.575 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d382f01c-06fe-45c3-9ae9-4d2b55d85d8a))
-    (pin "2" (uuid 29834c28-caa7-49b6-a462-369301032321))
-    (instances
-      (project "Payload_PCB"
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d35d8bfb-c080-4ec9-8d57-2a69a0b715d8"
-          (reference "D2") (unit 1)
-        )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/7b4c1a27-0edc-40a8-bad5-7c7578297bdc"
-          (reference "D2") (unit 1)
-        )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
-          (reference "D2") (unit 1)
-        )
-        (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
-          (reference "D7") (unit 1)
-        )
-      )
-      (project "solenoid_control"
-        (path "/d35e6abe-7670-4b21-9efa-e973c38a6f4f"
-          (reference "D2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 176.53 54.61 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 160.655 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d16b0f0-c1d3-46af-9930-5bfcdda24c90)
-    (property "Reference" "R1" (at 176.53 48.26 90)
+    (property "Reference" "R7" (at 160.655 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "R" (at 176.53 50.8 90)
+    (property "Value" "10kOhm" (at 160.655 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 176.53 56.388 90)
+    (property "Footprint" "" (at 160.655 56.388 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 176.53 54.61 0)
+    (property "Datasheet" "~" (at 160.655 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 15779854-ef95-41f4-97f4-32e2c78c4eb0))
@@ -703,16 +615,16 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d35d8bfb-c080-4ec9-8d57-2a69a0b715d8"
-          (reference "R1") (unit 1)
+          (reference "R7") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/7b4c1a27-0edc-40a8-bad5-7c7578297bdc"
-          (reference "R1") (unit 1)
+          (reference "R10") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
-          (reference "R1") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
-          (reference "R13") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "solenoid_control"
@@ -769,7 +681,7 @@
   (symbol (lib_id "Device:R") (at 101.6 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5da1d78-5197-4de2-b77f-94dbc708476b)
-    (property "Reference" "R4" (at 101.6 48.26 90)
+    (property "Reference" "R5" (at 101.6 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "8Ohm" (at 101.6 50.8 90)
@@ -786,16 +698,16 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d35d8bfb-c080-4ec9-8d57-2a69a0b715d8"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/7b4c1a27-0edc-40a8-bad5-7c7578297bdc"
           (reference "R8") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/83f3690e-358b-48b8-8f73-86eaa2f08e98"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/ae559297-2f69-4b2e-9656-464d0c3b2422"
-          (reference "R11") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "solenoid_control"

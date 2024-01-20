@@ -501,7 +501,7 @@
   (symbol (lib_id "Device:R_Small") (at 168.275 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f45286c-0647-467c-9042-2c104d10668c)
-    (property "Reference" "R4" (at 168.275 103.505 90)
+    (property "Reference" "R48" (at 168.275 103.505 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7kOhm" (at 168.275 107.315 90)
@@ -518,7 +518,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/303d15aa-29fe-42a5-a6a1-f7f24dc6bce2"
-          (reference "R4") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -532,7 +532,7 @@
   (symbol (lib_id "Device:C_Small") (at 198.12 97.79 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a55e4c8-5988-448e-94fd-bca5306af759)
-    (property "Reference" "C4" (at 198.12 95.25 90)
+    (property "Reference" "C15" (at 198.12 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470nF" (at 198.12 100.33 90)
@@ -549,7 +549,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/303d15aa-29fe-42a5-a6a1-f7f24dc6bce2"
-          (reference "C4") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -563,7 +563,7 @@
   (symbol (lib_id "Device:C_Small") (at 192.405 93.98 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7279af80-eccd-4a08-b4f9-3764b9e542c8)
-    (property "Reference" "C3" (at 192.405 91.44 90)
+    (property "Reference" "C14" (at 192.405 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 192.405 96.52 90)
@@ -580,7 +580,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/303d15aa-29fe-42a5-a6a1-f7f24dc6bce2"
-          (reference "C3") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -594,7 +594,7 @@
   (symbol (lib_id "Device:C_Small") (at 187.96 90.17 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 735929ff-c160-4b46-b253-06251de1d852)
-    (property "Reference" "C2" (at 187.96 87.63 90)
+    (property "Reference" "C13" (at 187.96 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 187.96 92.71 90)
@@ -611,7 +611,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/303d15aa-29fe-42a5-a6a1-f7f24dc6bce2"
-          (reference "C2") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -625,7 +625,7 @@
   (symbol (lib_name "BHI160B_1") (lib_id "BHI160B:BHI160B") (at 139.7 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80eaf944-002e-40aa-8457-61a66ce7d362)
-    (property "Reference" "U7" (at 139.7 82.55 0)
+    (property "Reference" "U8" (at 139.7 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BHI160B" (at 139.7 85.09 0)
@@ -706,7 +706,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/303d15aa-29fe-42a5-a6a1-f7f24dc6bce2"
-          (reference "U7") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -720,7 +720,7 @@
   (symbol (lib_id "Device:C_Small") (at 182.88 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97b9d7be-50e9-44e1-a8c4-10657dddbb29)
-    (property "Reference" "C1" (at 182.88 83.82 90)
+    (property "Reference" "C12" (at 182.88 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 182.88 88.9 90)
@@ -737,7 +737,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/303d15aa-29fe-42a5-a6a1-f7f24dc6bce2"
-          (reference "C1") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -751,7 +751,7 @@
   (symbol (lib_id "Device:R_Small") (at 140.335 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e2a5d44-c5a9-448f-a57a-1717d101d074)
-    (property "Reference" "R1" (at 140.335 62.865 90)
+    (property "Reference" "R45" (at 140.335 62.865 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7kOhm" (at 140.335 66.675 90)
@@ -771,7 +771,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/303d15aa-29fe-42a5-a6a1-f7f24dc6bce2"
-          (reference "R1") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -785,7 +785,7 @@
   (symbol (lib_id "Device:R_Small") (at 140.335 70.485 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a38dcfd2-7649-4bbf-a961-903df2828264)
-    (property "Reference" "R2" (at 140.335 68.58 90)
+    (property "Reference" "R46" (at 140.335 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7kOhm" (at 140.335 72.39 90)
@@ -802,7 +802,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/303d15aa-29fe-42a5-a6a1-f7f24dc6bce2"
-          (reference "R2") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -816,7 +816,7 @@
   (symbol (lib_id "Device:R_Small") (at 161.925 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f944be18-78ac-4473-aef2-365c0a949693)
-    (property "Reference" "R3" (at 161.925 100.965 90)
+    (property "Reference" "R47" (at 161.925 100.965 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7kOhm" (at 161.925 104.775 90)
@@ -833,7 +833,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/303d15aa-29fe-42a5-a6a1-f7f24dc6bce2"
-          (reference "R3") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
       (project "Payload_Sensors"

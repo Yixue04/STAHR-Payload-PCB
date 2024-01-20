@@ -650,7 +650,7 @@
   (symbol (lib_id "Device:R") (at 53.975 61.595 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1065fa87-c24f-4645-8e6f-a5651b085d43)
-    (property "Reference" "R24" (at 53.975 56.515 90)
+    (property "Reference" "R20" (at 53.975 56.515 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.3kOhm" (at 53.975 59.055 90)
@@ -667,7 +667,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275"
-          (reference "R24") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -681,7 +681,7 @@
   (symbol (lib_id "Device:R") (at 53.975 103.505 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6211dc47-7b37-4699-818a-e805589f9038)
-    (property "Reference" "R27" (at 53.975 98.425 90)
+    (property "Reference" "R23" (at 53.975 98.425 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10kOhm" (at 53.975 100.965 90)
@@ -698,7 +698,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275"
-          (reference "R27") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -712,7 +712,7 @@
   (symbol (lib_id "Device:R") (at 53.975 111.125 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75a5f56f-fc90-4c79-bb60-bd003cde1dca)
-    (property "Reference" "R28" (at 53.975 106.045 90)
+    (property "Reference" "R24" (at 53.975 106.045 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "43kOhm" (at 53.975 108.585 90)
@@ -729,7 +729,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275"
-          (reference "R28") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -743,7 +743,7 @@
   (symbol (lib_id "Device:R") (at 53.975 34.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5b36e5d-f400-4e63-a42d-a457f2391d93)
-    (property "Reference" "R22" (at 53.975 29.21 90)
+    (property "Reference" "R18" (at 53.975 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2kOhm" (at 53.975 31.75 90)
@@ -760,7 +760,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275"
-          (reference "R22") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -774,7 +774,7 @@
   (symbol (lib_id "Device:R") (at 53.975 53.975 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9612bc7-8ac7-4f7c-a546-62ea25d03282)
-    (property "Reference" "R23" (at 53.975 48.895 90)
+    (property "Reference" "R19" (at 53.975 48.895 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10kOhm" (at 53.975 51.435 90)
@@ -791,7 +791,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275"
-          (reference "R23") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -805,7 +805,7 @@
   (symbol (lib_id "Device:R") (at 53.975 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da9c0320-24ac-4a5d-9d52-dadbae01492d)
-    (property "Reference" "R26" (at 53.975 80.01 90)
+    (property "Reference" "R22" (at 53.975 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "13kOhm" (at 53.975 82.55 90)
@@ -822,7 +822,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275"
-          (reference "R26") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -836,7 +836,7 @@
   (symbol (lib_id "Device:R") (at 53.975 26.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd366342-cab2-4473-91bc-48ac4d9ac0a5)
-    (property "Reference" "R21" (at 53.975 21.59 90)
+    (property "Reference" "R17" (at 53.975 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10kOhm" (at 53.975 24.13 90)
@@ -853,7 +853,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275"
-          (reference "R21") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -867,7 +867,7 @@
   (symbol (lib_id "Device:R") (at 53.975 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ede06c79-9db9-4db4-9dbd-240da62869a2)
-    (property "Reference" "R25" (at 53.975 72.39 90)
+    (property "Reference" "R21" (at 53.975 72.39 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10kOhm" (at 53.975 74.93 90)
@@ -884,7 +884,7 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275"
-          (reference "R25") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "Payload_Sensors"

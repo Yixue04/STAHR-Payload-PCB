@@ -558,13 +558,6 @@
     (uuid ffd3f699-4857-4dc9-86da-3f287c279fb9)
   )
 
-  (global_label "VDD" (shape input) (at 148.59 77.47 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0bc8b3b9-b922-4f5a-adee-0614371b0b86)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 155.2038 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "GND" (shape input) (at 207.01 90.17 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1a176155-f525-4f37-8109-2f0d18a71539)
@@ -577,13 +570,6 @@
     (uuid 4bc59de7-932f-4e99-b9e6-3278bb4c104a)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 155.4457 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GND" (shape input) (at 97.79 74.93 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 52bb50da-2531-42e9-b781-22ab0d162412)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 90.9343 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "GND" (shape input) (at 97.79 85.09 180) (fields_autoplaced)
@@ -614,10 +600,24 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "VDD" (shape input) (at 207.01 82.55 0) (fields_autoplaced)
+  (global_label "GND" (shape input) (at 97.79 74.93 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 647a99bf-caa0-4897-ae74-b8f91a79810a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 90.9343 74.93 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "VIN_TC" (shape input) (at 148.59 77.47 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6853b26b-bf76-4fff-976c-a23b487dde3a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 157.8043 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "VIN_TC" (shape input) (at 207.01 82.55 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7df9c0a2-baa7-4eb8-a310-94981200cdcd)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 213.6238 82.55 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 216.2243 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -663,10 +663,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "VDD" (shape output) (at 232.41 51.435 180) (fields_autoplaced)
+  (global_label "VIN_TC" (shape output) (at 232.41 51.435 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c81e5c9b-263e-4c35-8670-972646c71305)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 225.7962 51.435 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 223.1957 51.435 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -702,7 +702,7 @@
   (symbol (lib_id "Device:R") (at 191.77 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71817737-09c5-4c7d-94ef-ad1d338d5674)
-    (property "Reference" "R2" (at 194.31 85.09 0)
+    (property "Reference" "R26" (at 194.31 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2MOhm" (at 194.31 87.63 0)
@@ -719,19 +719,19 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/a8db2f55-bfc9-40a0-84af-8efd68b340ec"
-          (reference "R2") (unit 1)
+          (reference "R26") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/1101fb1e-48e8-4de2-8e8d-f0ddcd662176"
-          (reference "R2") (unit 1)
+          (reference "R30") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/776afdef-1213-44df-abe5-0d4106dc15c8"
-          (reference "R2") (unit 1)
+          (reference "R34") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/93f75a25-38e5-4ce6-8ad7-31062be1351d"
-          (reference "R2") (unit 1)
+          (reference "R38") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/9de207a3-8a7e-4e65-805b-f7a2d307a73e"
-          (reference "R2") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -754,13 +754,18 @@
           (reference "R13") (unit 1)
         )
       )
+      (project "Payload_TC_MC"
+        (path "/f6801fc2-5672-471e-a7c0-b63f03e3ba00"
+          (reference "R26") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Device:R") (at 203.2 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ff977ae-502c-48db-9a20-88fc1a183876)
-    (property "Reference" "R17" (at 203.2 73.66 90)
+    (property "Reference" "R28" (at 203.2 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R" (at 203.2 75.565 90)
@@ -777,19 +782,19 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/a8db2f55-bfc9-40a0-84af-8efd68b340ec"
-          (reference "R17") (unit 1)
+          (reference "R28") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/1101fb1e-48e8-4de2-8e8d-f0ddcd662176"
-          (reference "R17") (unit 1)
+          (reference "R32") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/776afdef-1213-44df-abe5-0d4106dc15c8"
-          (reference "R17") (unit 1)
+          (reference "R36") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/93f75a25-38e5-4ce6-8ad7-31062be1351d"
-          (reference "R17") (unit 1)
+          (reference "R40") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/9de207a3-8a7e-4e65-805b-f7a2d307a73e"
-          (reference "R17") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -812,13 +817,18 @@
           (reference "R15") (unit 1)
         )
       )
+      (project "Payload_TC_MC"
+        (path "/f6801fc2-5672-471e-a7c0-b63f03e3ba00"
+          (reference "R28") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Device:R") (at 198.755 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 918dfde3-b408-47d4-afd9-fbf6ece24210)
-    (property "Reference" "R1" (at 198.755 78.74 90)
+    (property "Reference" "R27" (at 198.755 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1MOhm" (at 198.755 80.645 90)
@@ -835,19 +845,19 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/a8db2f55-bfc9-40a0-84af-8efd68b340ec"
-          (reference "R1") (unit 1)
+          (reference "R27") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/1101fb1e-48e8-4de2-8e8d-f0ddcd662176"
-          (reference "R1") (unit 1)
+          (reference "R31") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/776afdef-1213-44df-abe5-0d4106dc15c8"
-          (reference "R1") (unit 1)
+          (reference "R35") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/93f75a25-38e5-4ce6-8ad7-31062be1351d"
-          (reference "R1") (unit 1)
+          (reference "R39") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/9de207a3-8a7e-4e65-805b-f7a2d307a73e"
-          (reference "R1") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -870,13 +880,18 @@
           (reference "R14") (unit 1)
         )
       )
+      (project "Payload_TC_MC"
+        (path "/f6801fc2-5672-471e-a7c0-b63f03e3ba00"
+          (reference "R27") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Device:C_Small") (at 160.655 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa2fd21d-0fdc-4a05-b4ec-814862964d95)
-    (property "Reference" "C2" (at 163.195 88.9063 0)
+    (property "Reference" "C7" (at 163.195 88.9063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1pF" (at 163.195 91.4463 0)
@@ -893,19 +908,19 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/a8db2f55-bfc9-40a0-84af-8efd68b340ec"
-          (reference "C2") (unit 1)
+          (reference "C7") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/1101fb1e-48e8-4de2-8e8d-f0ddcd662176"
-          (reference "C2") (unit 1)
+          (reference "C8") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/776afdef-1213-44df-abe5-0d4106dc15c8"
-          (reference "C2") (unit 1)
+          (reference "C9") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/93f75a25-38e5-4ce6-8ad7-31062be1351d"
-          (reference "C2") (unit 1)
+          (reference "C10") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/9de207a3-8a7e-4e65-805b-f7a2d307a73e"
-          (reference "C2") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -926,6 +941,11 @@
         )
         (path "/be15da96-a8ba-4b41-94e6-4486ed8c384e/9de207a3-8a7e-4e65-805b-f7a2d307a73e"
           (reference "C4") (unit 1)
+        )
+      )
+      (project "Payload_TC_MC"
+        (path "/f6801fc2-5672-471e-a7c0-b63f03e3ba00"
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -954,16 +974,16 @@
           (reference "TC1") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/1101fb1e-48e8-4de2-8e8d-f0ddcd662176"
-          (reference "TC1") (unit 1)
+          (reference "TC2") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/776afdef-1213-44df-abe5-0d4106dc15c8"
-          (reference "TC1") (unit 1)
+          (reference "TC3") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/93f75a25-38e5-4ce6-8ad7-31062be1351d"
-          (reference "TC1") (unit 1)
+          (reference "TC4") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/9de207a3-8a7e-4e65-805b-f7a2d307a73e"
-          (reference "TC1") (unit 1)
+          (reference "TC5") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -986,13 +1006,18 @@
           (reference "TC4") (unit 1)
         )
       )
+      (project "Payload_TC_MC"
+        (path "/f6801fc2-5672-471e-a7c0-b63f03e3ba00"
+          (reference "TC1") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Device:D_Schottky_Small") (at 163.195 80.01 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc4c6864-5e6d-4191-a776-a68e11e0c946)
-    (property "Reference" "D4" (at 163.195 76.835 0)
+    (property "Reference" "D11" (at 163.195 76.835 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Schottky_Small" (at 163.195 78.105 0)
@@ -1009,19 +1034,19 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/a8db2f55-bfc9-40a0-84af-8efd68b340ec"
-          (reference "D4") (unit 1)
+          (reference "D11") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/1101fb1e-48e8-4de2-8e8d-f0ddcd662176"
-          (reference "D4") (unit 1)
+          (reference "D13") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/776afdef-1213-44df-abe5-0d4106dc15c8"
-          (reference "D4") (unit 1)
+          (reference "D15") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/93f75a25-38e5-4ce6-8ad7-31062be1351d"
-          (reference "D4") (unit 1)
+          (reference "D17") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/9de207a3-8a7e-4e65-805b-f7a2d307a73e"
-          (reference "D4") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -1044,13 +1069,18 @@
           (reference "D8") (unit 1)
         )
       )
+      (project "Payload_TC_MC"
+        (path "/f6801fc2-5672-471e-a7c0-b63f03e3ba00"
+          (reference "D11") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Device:R") (at 165.1 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbfbc85a-4444-4acd-93e8-6e3697a56598)
-    (property "Reference" "R3" (at 158.115 83.82 90)
+    (property "Reference" "R25" (at 158.115 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2MOhm" (at 158.115 85.725 90)
@@ -1067,19 +1097,19 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/a8db2f55-bfc9-40a0-84af-8efd68b340ec"
-          (reference "R3") (unit 1)
+          (reference "R25") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/1101fb1e-48e8-4de2-8e8d-f0ddcd662176"
-          (reference "R3") (unit 1)
+          (reference "R29") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/776afdef-1213-44df-abe5-0d4106dc15c8"
-          (reference "R3") (unit 1)
+          (reference "R33") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/93f75a25-38e5-4ce6-8ad7-31062be1351d"
-          (reference "R3") (unit 1)
+          (reference "R37") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/9de207a3-8a7e-4e65-805b-f7a2d307a73e"
-          (reference "R3") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -1102,13 +1132,18 @@
           (reference "R12") (unit 1)
         )
       )
+      (project "Payload_TC_MC"
+        (path "/f6801fc2-5672-471e-a7c0-b63f03e3ba00"
+          (reference "R25") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Device:D_Schottky_Small") (at 163.195 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e309febd-0dcd-41a4-b4ab-9b3523423012)
-    (property "Reference" "D3" (at 163.195 71.755 0)
+    (property "Reference" "D10" (at 163.195 71.755 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Schottky_Small" (at 163.195 73.025 0)
@@ -1125,19 +1160,19 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/a8db2f55-bfc9-40a0-84af-8efd68b340ec"
-          (reference "D3") (unit 1)
+          (reference "D10") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/1101fb1e-48e8-4de2-8e8d-f0ddcd662176"
-          (reference "D3") (unit 1)
+          (reference "D12") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/776afdef-1213-44df-abe5-0d4106dc15c8"
-          (reference "D3") (unit 1)
+          (reference "D14") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/93f75a25-38e5-4ce6-8ad7-31062be1351d"
-          (reference "D3") (unit 1)
+          (reference "D16") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/9de207a3-8a7e-4e65-805b-f7a2d307a73e"
-          (reference "D3") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -1160,13 +1195,18 @@
           (reference "D7") (unit 1)
         )
       )
+      (project "Payload_TC_MC"
+        (path "/f6801fc2-5672-471e-a7c0-b63f03e3ba00"
+          (reference "D10") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Private:MCP9601-E_MX") (at 148.59 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f79e5c68-a7ff-4492-8b27-394fe90c476d)
-    (property "Reference" "U4" (at 123.19 59.69 0)
+    (property "Reference" "U3" (at 123.19 59.69 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MCP9601-E/MX" (at 123.19 62.23 0)
@@ -1202,19 +1242,19 @@
     (instances
       (project "Payload_PCB"
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/a8db2f55-bfc9-40a0-84af-8efd68b340ec"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/1101fb1e-48e8-4de2-8e8d-f0ddcd662176"
           (reference "U4") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/776afdef-1213-44df-abe5-0d4106dc15c8"
-          (reference "U4") (unit 1)
+          (reference "U5") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/93f75a25-38e5-4ce6-8ad7-31062be1351d"
-          (reference "U4") (unit 1)
+          (reference "U6") (unit 1)
         )
         (path "/5c4f9a68-5778-4223-b18a-2e31db8d7d40/d52ba4fa-6dae-452c-85f1-a72652abf275/9de207a3-8a7e-4e65-805b-f7a2d307a73e"
-          (reference "U4") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
       (project "Payload_Sensors"
@@ -1237,6 +1277,15 @@
           (reference "U3") (unit 1)
         )
       )
+      (project "Payload_TC_MC"
+        (path "/f6801fc2-5672-471e-a7c0-b63f03e3ba00"
+          (reference "U3") (unit 1)
+        )
+      )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
