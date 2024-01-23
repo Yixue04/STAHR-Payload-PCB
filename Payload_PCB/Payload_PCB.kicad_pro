@@ -514,7 +514,7 @@
     ],
     [
       "303d15aa-29fe-42a5-a6a1-f7f24dc6bce2",
-      "Bosch_BHI160B"
+      "Bosch_BMI088"
     ],
     [
       "a5d6e803-a43d-4b6f-b631-9dac7ff20cfd",
@@ -523,6 +523,10 @@
     [
       "722fc623-9945-41d5-bc31-e6d0e92574b1",
       "BMS_MCP73835"
+    ],
+    [
+      "bb7d6643-3560-4234-99e3-e1d8f785be00",
+      "Bosch_BMP390"
     ]
   ],
   "text_variables": {}
