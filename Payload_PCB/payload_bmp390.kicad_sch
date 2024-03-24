@@ -483,7 +483,7 @@
     (property "Reference" "C15" (at 139.7 64.1413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_Small" (at 139.7 66.6813 0)
+    (property "Value" "100nF" (at 139.7 66.6813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 136.525 65.405 0)

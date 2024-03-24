@@ -4,6 +4,11 @@
 
   (paper "A5")
 
+  (title_block
+    (title "Battery and BMS")
+    (company "SpaceTeam Aachen")
+  )
+
   (lib_symbols
     (symbol "BQ2980:BQ298000RUGR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 20.32 10.16 0)
