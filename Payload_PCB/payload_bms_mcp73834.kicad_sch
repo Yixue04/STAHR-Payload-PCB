@@ -1247,9 +1247,9 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 037daa26-6859-4647-89b8-8f3cbe1342ed)
     )
-    (pin "vbat_in" input (at 240.665 73.66 0)
+    (pin "v_in" input (at 240.665 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 9172c365-1009-41b3-85e8-6515d7dfd407)
+      (uuid 05f346d8-a6ff-412e-b781-bd1da9f38e28)
     )
     (instances
       (project "Payload_PCB"
@@ -1304,9 +1304,9 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 845d5c34-f9db-42e6-8945-1bfbbe3d9917)
     )
-    (pin "vbat_in" input (at 201.295 73.66 0)
+    (pin "v_in" input (at 201.295 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3a38073b-4b80-4a09-8c59-41eebb2a2712)
+      (uuid 106c9178-8a52-4a15-be5d-14800a3465bd)
     )
     (instances
       (project "Payload_PCB"

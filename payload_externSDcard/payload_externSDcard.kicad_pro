@@ -377,7 +377,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "ignore",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Payload_PCB.kicad_pro",
+    "filename": "payload_externSDcard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -469,100 +469,8 @@
   },
   "sheets": [
     [
-      "5c4f9a68-5778-4223-b18a-2e31db8d7d40",
+      "d0a21813-c4f1-4070-854b-c84681cadc6c",
       ""
-    ],
-    [
-      "d35d8bfb-c080-4ec9-8d57-2a69a0b715d8",
-      "Solenoid Control 1"
-    ],
-    [
-      "7b4c1a27-0edc-40a8-bad5-7c7578297bdc",
-      "Solenoid Control 2"
-    ],
-    [
-      "83f3690e-358b-48b8-8f73-86eaa2f08e98",
-      "Solenoid Control 3"
-    ],
-    [
-      "ae559297-2f69-4b2e-9656-464d0c3b2422",
-      "Solenoid Control 4"
-    ],
-    [
-      "d52ba4fa-6dae-452c-85f1-a72652abf275",
-      "Sensor Modules"
-    ],
-    [
-      "a8db2f55-bfc9-40a0-84af-8efd68b340ec",
-      "TC_MCP9601_1"
-    ],
-    [
-      "1101fb1e-48e8-4de2-8e8d-f0ddcd662176",
-      "TC_MCP9601_2"
-    ],
-    [
-      "776afdef-1213-44df-abe5-0d4106dc15c8",
-      "TC_MCP9601_3"
-    ],
-    [
-      "93f75a25-38e5-4ce6-8ad7-31062be1351d",
-      "TC_MCP9601_4"
-    ],
-    [
-      "9de207a3-8a7e-4e65-805b-f7a2d307a73e",
-      "TC_MCP9601_5"
-    ],
-    [
-      "303d15aa-29fe-42a5-a6a1-f7f24dc6bce2",
-      "Bosch_BMI088"
-    ],
-    [
-      "a5d6e803-a43d-4b6f-b631-9dac7ff20cfd",
-      "Charge_MCP73834_1"
-    ],
-    [
-      "722fc623-9945-41d5-bc31-e6d0e92574b1",
-      "Charge_MCP73834_2"
-    ],
-    [
-      "bb7d6643-3560-4234-99e3-e1d8f785be00",
-      "Bosch_BMP390"
-    ],
-    [
-      "d3c6e6f5-d724-48e9-8547-c8822d927132",
-      "RadioSilence1"
-    ],
-    [
-      "230fdfe9-a3f7-4a15-ad2e-fce3439d80d7",
-      "RadioSilence2"
-    ],
-    [
-      "613dedc5-5c18-4c56-8a3c-a7783af4928f",
-      "BMSandBAT"
-    ],
-    [
-      "230fdfe9-a3f7-4a15-ad2e-fce3439d80d7",
-      "RadioSilence2"
-    ],
-    [
-      "d053929f-48bc-4e65-8bde-26e573685ab7",
-      "Heating Pad Control 2"
-    ],
-    [
-      "1e9e1733-6b5a-4028-9f43-052cd8d181d3",
-      "Heating Pad Control 1"
-    ],
-    [
-      "33b2e5d7-5e3f-425c-b4f0-5321d20d308b",
-      "Heating Pad Control 3"
-    ],
-    [
-      "d3c6e6f5-d724-48e9-8547-c8822d927132",
-      "RadioSilence1"
-    ],
-    [
-      "613dedc5-5c18-4c56-8a3c-a7783af4928f",
-      "BMSandBAT"
     ]
   ],
   "text_variables": {}
