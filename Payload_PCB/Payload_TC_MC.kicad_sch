@@ -387,6 +387,11 @@
     (uuid ec29a7f6-0921-48a7-8e57-27dab6653b15)
   )
 
+  (no_connect (at 53.975 63.5) (uuid 9166e826-068f-4c5c-9c5f-6ac8c0ca109a))
+  (no_connect (at 53.975 55.88) (uuid f62e5d23-55b8-4760-a193-2ab48702e319))
+  (no_connect (at 53.975 58.42) (uuid fb50baad-34da-49d4-bdb7-a686109083c2))
+  (no_connect (at 53.975 66.04) (uuid fd87a066-eef2-4202-bb19-fe56c703ba02))
+
   (wire (pts (xy 116.84 81.915) (xy 116.84 78.74))
     (stroke (width 0) (type default))
     (uuid 04cf6a82-cfdb-46e3-b61b-f68d63e52492)
@@ -1074,7 +1079,7 @@
     (property "Value" "MCP9601-E/MX" (at 79.375 48.26 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "MQFN20_NU_MCH" (at 106.045 85.344 0)
+    (property "Footprint" "MCP9601:MQFN20_NU_MCH" (at 106.045 85.344 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "MCP9601-E/MX" (at 105.5878 87.5792 0)

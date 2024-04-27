@@ -435,7 +435,7 @@
     (property "Value" "BMI088" (at 90.17 45.085 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "BMI088:PQFN50P450X300X100-16N" (at 90.17 65.405 0)
+    (property "Footprint" "footprints:PQFN50P450X300X100-16N" (at 90.17 65.405 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 90.17 65.405 0)

@@ -521,14 +521,6 @@
       "Charge_MCP73834_1"
     ],
     [
-      "722fc623-9945-41d5-bc31-e6d0e92574b1",
-      "Charge_MCP73834_2"
-    ],
-    [
-      "bb7d6643-3560-4234-99e3-e1d8f785be00",
-      "Bosch_BMP390"
-    ],
-    [
       "d3c6e6f5-d724-48e9-8547-c8822d927132",
       "RadioSilence1"
     ],
@@ -541,8 +533,20 @@
       "BMSandBAT"
     ],
     [
+      "722fc623-9945-41d5-bc31-e6d0e92574b1",
+      "Charge_MCP73834_2"
+    ],
+    [
       "230fdfe9-a3f7-4a15-ad2e-fce3439d80d7",
       "RadioSilence2"
+    ],
+    [
+      "d3c6e6f5-d724-48e9-8547-c8822d927132",
+      "RadioSilence1"
+    ],
+    [
+      "613dedc5-5c18-4c56-8a3c-a7783af4928f",
+      "BMSandBAT"
     ],
     [
       "d053929f-48bc-4e65-8bde-26e573685ab7",
@@ -555,14 +559,6 @@
     [
       "33b2e5d7-5e3f-425c-b4f0-5321d20d308b",
       "Heating Pad Control 3"
-    ],
-    [
-      "d3c6e6f5-d724-48e9-8547-c8822d927132",
-      "RadioSilence1"
-    ],
-    [
-      "613dedc5-5c18-4c56-8a3c-a7783af4928f",
-      "BMSandBAT"
     ]
   ],
   "text_variables": {}
