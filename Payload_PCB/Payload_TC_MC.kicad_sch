@@ -481,6 +481,11 @@
     (uuid ffd3f699-4857-4dc9-86da-3f287c279fb9)
   )
 
+  (text "Werte nochmal anschauen" (at 41.275 38.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid eb5c2537-74cb-4dce-b97b-148ca5dae5f9)
+  )
+
   (global_label "OCALERT" (shape output) (at 120.015 54.61 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 18bc529b-894a-4e29-a6be-991286d04022)
@@ -824,7 +829,7 @@
     (property "Reference" "C7" (at 119.38 74.9363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1pF" (at 119.38 77.4763 0)
+    (property "Value" "0.1µF" (at 119.38 77.4763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 116.84 76.2 0)

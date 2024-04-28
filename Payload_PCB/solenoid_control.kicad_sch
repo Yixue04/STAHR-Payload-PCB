@@ -564,6 +564,15 @@
     (uuid f16195f2-b78e-496d-a856-667a7e9403b4)
   )
 
+  (text "Diode zum entladen" (at 40.64 42.545 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 31bd8b10-b5f7-4f0d-bfc3-bf105cda90fc)
+  )
+  (text "12 Boost Converter\nWährend Flug laden" (at 160.655 49.53 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8317202c-e838-458c-92af-d46890091ae8)
+  )
+
   (label "12V" (at 156.845 53.975 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 32f08e30-2820-43aa-8bbb-122792b0e2b1)
